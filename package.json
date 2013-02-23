@@ -1,6 +1,6 @@
 {
   "name": "node-postgres",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "save.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +10,9 @@
     "pg": "0.6.15",
     "db-migrate": "~0.3.0",
     "express": "latest"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
   }
 }
