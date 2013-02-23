@@ -6,6 +6,8 @@ var pg = require('pg'),
 connStr = process.env.DATABASE_URL || 
 	"tcp://" + conf.user + ":" + conf.password + "@" + conf.host + "/" + conf.database 
 
+console.log(connStr);
+
 pg.connect(connStr, function(err, client){
 	var query = client.query("SELECT * FROM links");
 
