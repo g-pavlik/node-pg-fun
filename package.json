@@ -1,0 +1,14 @@
+{
+  "name": "node-postgres",
+  "version": "0.0.0",
+  "main": "save.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "BSD",
+  "dependencies": {
+    "pg": "~0.11.3",
+    "db-migrate": "~0.3.0",
+    "express": "latest"
+  }
+}
